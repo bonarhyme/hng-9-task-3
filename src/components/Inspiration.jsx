@@ -10,7 +10,7 @@ const Inspiration = ({ home = true }) => {
   }, []);
 
   return (
-    <section className="pt-10 md:py-[100px] md:px-[20px]    ">
+    <section className="pt-10 md:py-[100px] md:px-[20px]    mb-8 ">
       {home ? (
         <h1
           className=" text-[28px] md:text-[48px]  text-black text-center mb-10"

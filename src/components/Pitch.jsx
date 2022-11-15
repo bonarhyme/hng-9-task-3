@@ -4,7 +4,7 @@ import pitch from "../images/pitch.svg";
 const Pitch = () => {
   return (
     <section
-      className="flex flex-col md:flex-row pt-10 md:py-[100px] px-3 md:px-[100px]"
+      className="flex flex-col md:flex-row py-10 md:py-[100px] px-3 md:px-[100px]"
       style={{
         background: "linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%)",
         rowGap: "3rem",
