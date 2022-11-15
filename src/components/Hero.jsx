@@ -44,8 +44,8 @@ const Hero = () => {
           </form>
         </div>
       </div>
-      <div className="flex flex-col sm:flex-row flex-1   min-h-[460px] gap-1 justify-center  ">
-        <div className=" flex flex-col justify-end gap-1 items-center md:items-start ">
+      <div className="flex flex-col  sm:flex-row flex-1   min-h-[460px] gap-1 justify-center  ">
+        <div className=" flex flex-col  flex-wrap justify-end gap-1 items-center md:items-start ">
           <div className="w-[234px] h-[176px]">
             <img src={one} alt="" />
           </div>
@@ -53,7 +53,7 @@ const Hero = () => {
             <img src={two} alt="" />
           </div>
         </div>
-        <div className=" h-full flex flex-col justify-start gap-1 items-center md:items-start  ">
+        <div className=" h-full flex  flex-wrap flex-col justify-start gap-1 items-center md:items-start  ">
           <div className="w-[234px] h-[176px]">
             <img src={three} alt="" />
           </div>
