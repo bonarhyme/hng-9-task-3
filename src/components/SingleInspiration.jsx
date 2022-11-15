@@ -17,6 +17,8 @@ const SingleInspiration = ({ image, title, distance, pay, available }) => {
       <div className="relative">
         <img
           src={image}
+          width={260}
+          height={265}
           alt=""
           style={{
             width: "260px",

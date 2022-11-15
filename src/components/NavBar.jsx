@@ -2,9 +2,11 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../images/logo.svg";
 import { FaBars } from "react-icons/fa";
+import ConnectModal from "./ConnectModal";
 
 const NavBar = () => {
   const [hide, setHide] = useState(false);
+  const [openConnectModal, setOpenConnectModal] = useState(false);
   return (
     <nav className="flex w-full justify-between px-6 flex-wrap whitespace-nowrap ">
       <div className="w-[233px] h-[37] pt-4 flex md:inline-block ">
@@ -41,9 +43,14 @@ const NavBar = () => {
             lineHeight: "20px",
             fontFamily: "'Red Rose', cursive",
           }}
+          onClick={() => setOpenConnectModal((prev) => !prev)}
         >
           Connect wallet
         </button>
+
+        {openConnectModal ? (
+          <ConnectModal setOpenConnectModal={setOpenConnectModal} />
+        ) : null}
       </div>
     </nav>
   );

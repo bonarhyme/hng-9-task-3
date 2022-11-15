@@ -39,6 +39,7 @@ const Inspiration = ({ home = true }) => {
               .map((x, i) => {
                 return (
                   <SingleInspiration
+                    key={i}
                     image={x.image}
                     title={x.title}
                     distance={x.distance}
