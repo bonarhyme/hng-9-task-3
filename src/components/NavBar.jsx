@@ -18,8 +18,8 @@ const NavBar = () => {
         <FaBars size={30} />
       </button>
       <div
-        className={`bg-slate-100 md:bg-white px-2 md:px-0 flex flex-col md:flex-row gap-4 md:gap-8 md:justify-center md:items-center w-full md:w-fit mt-6 md:mt-0  pt-4   ${
-          hide ? "hidden" : ""
+        className={`bg-slate-100 md:bg-white px-2 md:px-0 flex-col flex  md:flex-row gap-4 md:gap-8 md:justify-center md:items-center w-full md:w-fit mt-6 md:mt-0  pt-4   ${
+          hide ? "hidden md:flex" : ""
         }`}
       >
         <Link to="/">Home</Link>
@@ -30,7 +30,7 @@ const NavBar = () => {
 
       <div
         className={`w-full md:w-fit   mx-auto  pt-4  md:mx-0  flex justify-center bg-slate-100 md:bg-white pb-4 md:pb-0 ${
-          hide ? "hidden" : ""
+          hide ? "hidden md:flex" : ""
         }`}
       >
         <button
