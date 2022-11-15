@@ -7,7 +7,7 @@ import four from "../images/hero-left-2.svg";
 
 const Hero = () => {
   return (
-    <section className="flex flex-col sm:flex-col xl:flex-row p-4 pt-8   md:py-[100px] md:px-[20px]   lg:px-[100px] gap-8 md:gap-6">
+    <section className="flex flex-col sm:flex-col xl:flex-row p-4 pt-8   md:py-[100px] md:px-[20px]   lg:px-[100px] gap-12 md:gap-6">
       <div className="flex flex-col gap-[27px] md:gap-[48px] text-[#434343] flex-1">
         <h1 className=" lg:w-[646px] md:w-[536px]  text-[30px] sm:text-[40px] lg:text-[56px] md:leading-[58px] lg:leading-[78px] ">
           Rent a <span className="text-[#a02279]">Place</span> away from <br />
