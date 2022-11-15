@@ -11,14 +11,14 @@ const Sponsors = () => {
         background: "linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%)",
       }}
     >
-      <div>
-        <img src={mbtoken} alt="mbtoken" />
+      <div className="flex gap-4">
+        <img src={mbtoken} alt="mbtoken" className="w-[100px] sm:w-[222px]" />
       </div>
       <div>
-        <img src={metamask} alt="metamask" />
+        <img src={metamask} alt="metamask" className="w-[100px] sm:w-[222px]" />
       </div>
       <div>
-        <img src={opensea} alt="opensea" />
+        <img src={opensea} alt="opensea" className="w-[100px] sm:w-[222px]" />
       </div>
     </section>
   );

@@ -1,5 +1,6 @@
 import React from "react";
 import Hero from "../components/Hero";
+import Inspiration from "../components/Inspiration";
 import Sponsors from "../components/Sponsors";
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
     <main>
       <Hero />
       <Sponsors />
+      <Inspiration />
     </main>
   );
 };
